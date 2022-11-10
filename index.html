@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Test</title>
+    <script src="https://kit.fontawesome.com/16e2b0f4fc.js" crossorigin="anonymous">
+
+    </script>
+    <!-- crossorigin 이 뭔지?-->
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <div class="logo">
+            <i class="fa-brands fa-youtube" style="color:red"></i>
+            <span class="title">YouTube</span>
+        </div>
+        <div class="icons">
+            <i class="fas fa_search"></i>
+            <i class="fas fa_elliosis_v"></i>    
+        </div>
+    </header>
+    
+    <!-- Video Player -->
+    <section class="player">
+        <video width="320" height="240" controls>
+            <source src="video/IMG_2547.mp4" type="video/mp4">
+        </video>
+    </section>
+
+    <!-- Vieo Info -->
+    <section class="info">
+        <div class="metadata">
+            <ul class="hashtags">
+                <li>#Jooho</li>
+                <li>#PGT</li>
+                <li>#Web</li>
+            </ul>
+            <div class="titleAndButton"></div>
+            <span class="title">
+                KJH WorldWeb: 훌륭함과 널리 알려진 정도에 대한 기준은 사람마다 다 제각각이고 주관적이기에, 
+                섣불리 어떤 말을 무조건 명언이라고 단정하기는 어렵다.
+                2번의 의미로 쓴다면 훌륭한 말은 아니고,
+                널리 대중들에게 알려진 유명한 말이라고 할 수 있다.
+            </span>
+            <button class="moreBtn">
+                <i class="fas fa-caret-down"></i>
+            </button>
+            <div class="views">
+                <span class="views">1M views 1month ago</span>
+            </div>
+        </div>
+
+        <!-- Actions -->
+        <ul class="actions">
+            <li>
+                <button><i class="fa-solid fa-thumbs-up"></i><span>1K</span></button>
+            </li>
+            <li>
+                <button><i class="fa-solid fa-thumbs-down"></i><span>0</span></button>
+            </li>
+            <li>
+                <button><i class="fa-solid fa-share"></i><span>Share</span></button>
+            </li>
+            <li>
+                <button><i class="fa-solid fa-plus"></i><span>Save</span></button>
+            </li>
+            <li>
+                <button><i class="fa-solid fa-paper-plane"></i><span>Report</span></button>
+            </li>
+            
+        </ul>
+
+        <!-- Channel Description-->
+        <div class="channels">
+            <div class="metadata">
+                <img src="image/3ds max.png" alt="" />
+                <div class="info">
+                    <span class="name">웹프 by 최강주호</span>
+                    <span class="subscribers">1M subcribers</span>
+                </div>
+            </div>
+            <button class="subscribere">subscribe</button>
+        </div>
+
+    </section>
+
+    <!-- UpNext 여기서 info div로 묶어줄 필요가 없지않은가? -->
+    <section class="upNext">
+        <ul>
+            <li class="item">
+                <img src="image/스크린샷 2022-06-07 오전 2.43.36.png" alt="">
+                <div class="info">
+                    <span class="title">a</span>
+                    <span class="name">a</span>
+                    <span class="views">a</span>
+                </div>
+                <button class="moreBtn"></button>
+            </li>
+            <li class="item">
+                <img src="image/스크린샷 2022-06-07 오전 2.44.22.png" alt="">
+                
+                    <span class="title">b</span>
+                    <span class="name">b</span>
+                    <span class="views">b</span>
+                <button class="moreBtn"></button>
+            </li>
+            <li class="item">
+                <img src="image/스크린샷 2022-06-07 오전 2.44.48.png" alt="">
+                
+                    <span class="title">c</span>
+                    <span class="name">sdc</span>
+                    <span class="views">c</span>
+                
+                <button class="moreBtn"></button>
+            </li>
+        </ul>
+    </section>
+</body>
+</html>
